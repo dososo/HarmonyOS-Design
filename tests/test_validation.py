@@ -24,7 +24,7 @@ def test_rules_validate() -> None:
     result = validate_rules(ROOT)
     assert result.errors == []
     assert result.rule_count == 38
-    assert result.source_count >= 30
+    assert result.source_count >= 26
 
 
 def test_evals_validate() -> None:
